@@ -1,0 +1,188 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+}
+
+h1, h2 {
+    font-family: 'Crete Round', serif;
+}
+
+h1 {
+    font-size: 45px;
+    color: #444;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 24px;
+    color:#444
+
+}
+p{
+
+    line-height: 20px;
+    color: #777;
+}
+
+.orange {
+    color: #ff7f50;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* HEADER */
+header {
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #ff7f50;
+    color: #fff;
+}
+
+/* MAIN IMAGE SECTION */
+#main-image {
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('https://images.unsplash.com/photo-1596625820723-f0f481ff80be?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 120px; /* Pour compenser le header fixe */
+}
+
+#main-image .wrapper {
+    color: #fff;
+    text-align: center;
+}
+
+#main-image h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+#main-image strong {
+    font-weight: normal;
+    font-size: 24px;
+    display: block;
+    margin-top: 15px;
+}
+
+.button-1 {
+    display: inline-block;
+    background: #ff7f50;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.button-1:hover {
+    background: #e67347;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* STEPS */
+
+#steps ul{
+    
+    margin: 70px 0;
+
+
+
+}
+
+#steps ul li{
+    
+    width: 300px;
+    float: left;
+    transition: all .3s ease-in-out;
+    padding-top: 100px;
+    text-align: center;
+    margin-right: 6px;
+
+   
+
+
+   
+}
+
+#steps h4{
+
+
+}
+#step p{
+    
+    margin-bottom: 20px;
+
+}
+#step-1 {
+   background: url(images/clipboard\ \(1\).png) no-repeat top center; 
+  
+   
+}
+
+#step-2 {
+    background: url(images/layer.png) no-repeat top center; 
+   
+}
+
+#step-3 {
+
+    background: url(images/traveling.png) no-repeat top center; 
+   
+}
