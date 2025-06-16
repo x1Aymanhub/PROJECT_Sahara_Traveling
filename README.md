@@ -1,6 +1,6 @@
 # PROJECT_Sahara_Traveling
 
-    #Realisé PAR ALIATI AYMAN ! # 
+    # Realisé par :) ALIATI AYMAN <3 # 
 
 ## Présentation
 
@@ -16,29 +16,22 @@ Sahara Traveling est un site web moderne dédié à l'organisation de voyages et
 ### 🌍 Destination
 - Découverte des différentes destinations proposées dans le Sahara marocain.
 - Informations sur les lieux, activités et hébergements.
-- **[Photo à insérer ici]**
+- ![Destination](image_pre/Destination.png)
 
 ### 🏜️ Circuit
 - Liste des circuits disponibles (famille, aventure, couple, etc.).
 - Détails sur chaque circuit, durée, activités incluses.
-- **[Photo à insérer ici]**
+-![Circuit](image_pre/Circuit.png)
 
 ### 📞 Contact
 - Formulaire de contact pour les demandes de renseignements ou de réservation.
 - Coordonnées et réseaux sociaux.
-- **[Photo à insérer ici]**
+- ![Contact](image_pre/Contact.png)
+![end](image_pre/1.png)
 
-## Installation
-1. Cloner le dépôt
-2. Ouvrir le projet dans votre éditeur
-3. Lancer le serveur si besoin (voir instructions dans le code)
 
-## Personnalisation
-- Remplacez les images par vos propres photos dans les sections indiquées.
-- Adaptez les textes et les couleurs selon votre identité visuelle.
 
----
 
-**Projet réalisé avec passion pour découvrir le Sahara marocain autrement !**
+**Projet réalisé avec passion pour découvrir le Sahara marocain autrement !**  
 
 
