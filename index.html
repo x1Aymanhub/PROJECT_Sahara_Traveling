@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <link href="styles.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sahara Traveling</title>
   </head>
@@ -24,51 +25,257 @@
 
     <section id="main-image">
       <div class="wrapper">
-        <h2>Organisez votre voyage<br><strong> Découvrez le Sahara comme vous ne l'avez jamais vu.</strong></h2>
+        <h2>Organisez votre voyage<br><strong> Découvrez le Sahara comme vous ne lavez jamais vu.</strong></h2>
         <a href="#" class="button-1">Explorer</a>
       </div>
     </section>
 
     <section id="steps">
+      <div class="wrapper">
+        <h2 class="steps-title">Comment ça marche ?</h2>
+        <div class="steps-cards">
+          <div class="step-card">
+            <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+            <h4>Planifier</h4>
+            <p>Livrez-nous vos aspirations de voyage : qu'elles soient familiales ou amicales, nous saurons les transcender en une odyssée taillée à la perfection.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon"><i class="fas fa-layer-group"></i></div>
+            <h4>Organiser</h4>
+            <p>Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-icon"><i class="fas fa-route"></i></div>
+            <h4>Voyager</h4>
+            <p>Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="possibilities">
+      <div class="wrapper">
+        <h2>Nos Offres Spéciales</h2>
+        <div class="possibilities-grid">
+          <article class="possibility-card">
+            <div class="card-image">
+              <img src="images/R.webp" alt="Famille Sahara Marocain">
+              <div class="overlay">
+                <h4>Partez en famille</h4>
+                <p>Des moments inoubliables à partager avec vos proches</p>
+              </div>
+            </div>
+            <div class="card-content">
+              <p>Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux !</p>
+              <div class="card-features">
+                <span><i class="fas fa-child"></i> Activités enfants</span>
+                <span><i class="fas fa-home"></i> Hébergement familial</span>
+              </div>
+              <a href="#" class="button-2">Découvrir</a>
+            </div>
+          </article>
+
+          <article class="possibility-card">
+            <div class="card-image">
+              <img src="images/2-days-tour-from-Marrakech-to-Zagora-desert-1-1024x681.webp" alt="Évasion Sahara Marocain">
+              <div class="overlay">
+                <h4>Envie de s'évader</h4>
+                <p>Une aventure unique vous attend</p>
+              </div>
+            </div>
+            <div class="card-content">
+              <p>Parfois un peu d'évasion serait le bienvenu et ferait le plus grand bien.</p>
+              <div class="card-features">
+                <span><i class="fas fa-mountain"></i> Randonnées</span>
+                <span><i class="fas fa-camera"></i> Photos souvenirs</span>
+              </div>
+              <a href="#" class="button-2">Découvrir</a>
+            </div>
+          </article>
+
+          <article class="possibility-card">
+            <div class="card-image">
+              <img src="images/03.jpg" alt="Voyage Romantique Sahara Marocain">
+              <div class="overlay">
+                <h4>Voyage en couple</h4>
+                <p>Des moments romantiques inoubliables</p>
+              </div>
+            </div>
+            <div class="card-content">
+              <p>Créez des souvenirs romantiques dans le désert du Sahara.</p>
+              <div class="card-features">
+                <span><i class="fas fa-heart"></i> Dîners romantiques</span>
+                <span><i class="fas fa-moon"></i> Nuits sous les étoiles</span>
+              </div>
+              <a href="#" class="button-2">Découvrir</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="CONTACT">
+      <div class="contact-background">
         <div class="wrapper">
+          <h3>Contactez-nous</h3>
+          <div class="contact-container">
+            <div class="contact-info">
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Notre Adresse</h4>
+                  <p>123 Rue du Sahara, Marrakech, Maroc</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Téléphone</h4>
+                  <p>+212 6XX-XXXXXX</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>contact@saharatraveling.com</p>
+                </div>
+              </div>
+              <div class="social-bar">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Sujet</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="button-1">Envoyer le message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h1>Sahara Traveling <span class="orange">.</span></h1>
+            <p>Votre partenaire de voyage de confiance pour des aventures inoubliables dans le Sahara.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Liens Rapides</h4>
             <ul>
-                 <li id="step-1">
-                    <h4> PLANIFIER </h4>
-                    <p> Livrez-nous vos aspirations de voyage : qu’elles soient familiales ou amicales, nous saurons les transcender en une odyssée taillée à la perfection</p>
-                </li>
-
-                <li id="step-2">
-                    <h4> ORAGANIZER </h4>
-                    <p>
-                        Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.
-                    </p>
-
-                </li>
-
-                <li id="step-3">
-                    <h4> VOYAGE </h4>
-                    <p>
-                        Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.
-                        </p>
-                </li>
+              <li><a href="#main-image">Accueil</a></li>
+              <li><a href="#steps">Destinations</a></li>
+              <li><a href="#possibilities">Circuits</a></li>
+              <li><a href="#CONTACT">Contact</a></li>
             </ul>
-         
+          </div>
+          <div class="footer-section">
+            <h4>Suivez-nous</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
         </div>
-      </section>
+        <div class="footer-bottom">
+          <div class="copyright">Copyright © 2024 Sahara Traveling. Tous droits réservés.</div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Animation au scroll
+      const observerOptions = {
+        threshold: 0.1
+      };
 
-      
-  
-     
-  
-      <section id="CONTACT">
-        <div class="wrapper">
-          <!-- Formulaire de contact ou infos de contact ici -->
-        </div>
-      </section>
-  
-      <footer>
-        <!-- Pied de page : infos légales, réseaux sociaux, etc. -->
-      </footer>
-    </body>
-  </html>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+          }
+        });
+      }, observerOptions);
+
+      // Observer les éléments à animer
+      document.querySelectorAll('.possibility-card, #steps ul li').forEach(el => {
+        observer.observe(el);
+      });
+
+      // Smooth scroll pour les liens de navigation
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Animation du header au scroll
+      let lastScroll = 0;
+      const header = document.querySelector('header');
+
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll <= 0) {
+          header.classList.remove('scroll-up');
+          return;
+        }
+        
+        if (currentScroll > lastScroll && !header.classList.contains('scroll-down')) {
+          header.classList.remove('scroll-up');
+          header.classList.add('scroll-down');
+        } else if (currentScroll < lastScroll && header.classList.contains('scroll-down')) {
+          header.classList.remove('scroll-down');
+          header.classList.add('scroll-up');
+        }
+        lastScroll = currentScroll;
+      });
+
+      // Animation des cartes au hover
+      document.querySelectorAll('.possibility-card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+          this.style.transform = 'translateY(-10px)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+          this.style.transform = 'translateY(0)';
+        });
+      });
+
+      // Changement de couleur au clic sur 'Partez en famille' et son texte
+      document.querySelectorAll('.possibility-card .overlay h4, .possibility-card .overlay p').forEach(el => {
+        el.addEventListener('click', function() {
+          this.style.color = '#ff7f50';
+        });
+      });
+    </script>
+  </body>
+</html>
   
